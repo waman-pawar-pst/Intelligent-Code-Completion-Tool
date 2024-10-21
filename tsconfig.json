@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "jsx": "react-jsx",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true, // This can also help with third-party module types
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "typeRoots": ["./node_modules/@types", "./src/@types"],
+    "types": ["node"]
+  },
+  "include": ["src"]
+}
